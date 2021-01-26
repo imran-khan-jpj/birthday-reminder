@@ -5,6 +5,7 @@ import Person from './components/Person'
 function App() {
 
   const [people, setPeople] = useState(data);
+  console.log('added console.log')
   return (
 
 
